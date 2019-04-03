@@ -1,0 +1,58 @@
+.button {
+  height: 3rem;
+  font-size: 1rem;
+  line-height: 0;
+  border: 2px solid transparent;
+  border-radius: 1000px;
+}
+
+.button:hover,
+.button:focus {
+  opacity: 0.6;
+  outline: none;
+  border-color: #000;
+}
+
+.button[value="."] {
+  grid-column-start: 0;
+}
+
+.button[value="0"] {
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: left;
+  text-indent: 1.2rem;
+}
+
+.button[value="1"],
+.button[value="2"],
+.button[value="3"] {
+  grid-row-start: 3;
+}
+
+.button[value="4"],
+.button[value="5"],
+.button[value="6"] {
+  grid-row-start: 2;
+}
+
+.button[value="7"],
+.button[value="8"],
+.button[value="9"] {
+  grid-row-start: 1;
+}
+
+.button-default {
+  background-color: #444;
+  color: #fff;
+}
+
+.button-primary {
+  background-color: orange;
+  color: #fff;
+}
+
+.button-secondary {
+  background-color: #ddd;
+}

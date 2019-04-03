@@ -1,0 +1,6 @@
+.operators {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+}
