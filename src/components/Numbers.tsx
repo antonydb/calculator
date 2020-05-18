@@ -6,7 +6,7 @@ interface NumbersProps {
   onClick: (val: string) => void;
 }
 
-const numbers = Array(10)
+export const numbers = Array(10)
   .fill(undefined)
   .map((_, index) => `${index}`);
 
